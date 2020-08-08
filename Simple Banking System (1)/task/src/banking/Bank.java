@@ -12,16 +12,12 @@ public class Bank {
     }
 
     public void createAccount() {
-
         Account newAccount = new Account();
         accounts.add(newAccount);
 
-
-        for (Account acc : accounts) {
-            System.out.println(acc.getCcNum() +" : " + acc.getPinNum());
-        }
-
-
+//        for (Account acc : accounts) {
+//            System.out.println(acc.getCcNum() +" : " + acc.getPinNum());
+//        }
     }
 
     public List<Account> getAccounts() {

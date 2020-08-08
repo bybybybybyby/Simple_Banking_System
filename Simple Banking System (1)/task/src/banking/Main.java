@@ -12,9 +12,7 @@ public class Main {
 
         do {
             exitProgram = userInterface.mainMenu(scanner);
-
         } while (!exitProgram);
-
 
     }
 }
